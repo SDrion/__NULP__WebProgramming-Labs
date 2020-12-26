@@ -1,0 +1,16 @@
+.page_button {
+  background-color: #FFB100;
+  border: none;
+  font-weight: 600;
+  color: rgba(13, 59, 102, 1);
+  text-align: center;
+  width: 70px;
+  height: 38px;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+}
+
+.page_button:hover {
+  background-color: #ffb300b2;
+}

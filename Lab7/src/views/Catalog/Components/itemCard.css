@@ -1,0 +1,51 @@
+.item_card {
+  background-color: rgb(240, 240, 240);
+  justify-self: center;
+  border: 1px solid #888888;
+  border-radius: 15px;
+  width: 200px;
+  height: 400px;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px 40px;
+}
+
+.item_card .book_desc_container {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  gap: 15px;
+}
+
+.item_card .book_desc_container span:first-child {
+  font-weight: 600;
+}
+
+.item_card .book_desc_container span:last-child {
+  color: rgb(60, 60, 60);
+  font-weight: 600;
+}
+
+.item_card img {
+  width: 200px;
+  height: 200px;
+}
+
+.item_card .view_more_btn {
+  border: none;
+  background-color: rgba(13, 59, 102, 0.9);
+  color: snow;
+  font-weight: 600;
+  font-size: 13px;
+  border-radius: 15px;
+  justify-self: center;
+  padding: 10px 15px;
+  outline: none;
+  cursor: pointer;
+}
+
+.item_card .view_more_btn:hover {
+  background-color: rgba(13, 59, 102, 0.7);
+}

@@ -1,0 +1,52 @@
+.modal {
+  display: none;
+  z-index: 1;
+  position: fixed; 
+  padding-top: 30vh;
+  left: 0; 
+  top: 0;
+  width: 100%;
+  height: 100%; 
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal .modal_container {
+  display: grid;
+  position: relative;
+  width: fit-content; 
+  justify-content: center;
+  align-content: center;
+  grid-gap: 10px;
+  background-color: snow;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 40px 60px;
+  margin: auto;
+}
+
+.modal .modal_container .modal_form_el .modal_input {
+  margin-left: 10px;
+  padding: 5px 5px;
+  border-radius: 5px;
+}
+
+.modal .modal_container .modal_buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  grid-gap: 5px;
+}
+
+.modal .modal_container .modal_buttons button {
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  background-color: #50BC00;
+  padding: 7px 10px;
+}
+
+.modal .modal_container .modal_buttons .cancel_adding {
+  background-color: #BC0000;
+}

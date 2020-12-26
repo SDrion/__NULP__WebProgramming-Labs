@@ -1,0 +1,7 @@
+<svg width="30" height="4" viewBox="0 0 30 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+<linearGradient id="gradient_burg">
+        <stop class="stop1" offset="50%" stop-color="#FB8F1D" stop-opacity="80%"/>
+        <stop class="stop2" offset="100%" stop-color="#1ABE84"/>
+</linearGradient>
+<rect width="30" height="4" rx="2" fill="url(#gradient_burg)"/>
+</svg>

@@ -1,0 +1,19 @@
+.cart_container {
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  min-height: 80vh;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.items_wrapper {
+  display: grid;
+  gap: 35px;
+}
+
+.total_price {
+  justify-self: end;
+  font-size: 26px;
+  font-weight: 500;
+}

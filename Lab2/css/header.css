@@ -1,0 +1,138 @@
+.header {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 53px 190px;
+}
+
+.header img {
+  width: 0px;
+}
+
+.animation_logo {
+  width: 40px!important;
+  transition: 1s;
+}
+
+.header .navbar {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  justify-content: end;
+  grid-gap: 35px;
+  align-items: center;
+  text-decoration: none;
+  outline: none;
+}
+.header .navbar a:first-child {
+  color: #202336;
+}
+.header .navbar a {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #B8BECD;
+  text-decoration: none;
+  outline: none;
+}
+.header .navbar button {
+  padding: 8px 46px;
+  border: 1px solid #FB8F1D;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background: #FFFFFF;
+  color: #FB8F1D;
+  width: 157px;
+}
+.header .navbar button:last-child {
+  color: #FFFFFF;
+  background: #FB8F1D;
+}
+
+.burger {
+  display: none;
+  position: relative;
+}
+
+.burger img {
+  transition: .5s;
+  position: absolute;
+  right: 0;
+}
+
+.burger img:first-child{
+  top: 10px;
+}
+
+.burger img:nth-child(2) {
+  top: 20px;
+}
+
+.burger img:nth-child(3) {
+  top: 30px;
+}
+
+.active-burger img:first-child{
+  transform: rotate(45deg);
+  transition: .5s;
+  top: 20px;
+}
+
+.active-burger img:nth-child(2){
+  right: -300px;
+  transition: .5s;
+}
+
+.active-burger img:nth-child(3){
+  transform: rotate(-45deg);
+  transition: .5s;
+  top: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    top: 0;
+  }
+  .header img {
+    z-index: 2;
+  }
+
+  .header .navbar {
+    position: absolute;
+    grid-template-columns: 1fr;
+    background: white;
+    transition: .5s;
+    top: -500px;
+    left: 0;
+    right: 0;
+    justify-items: center;
+    padding: 30px;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+  }
+
+  .active-burger-menu{
+    top: 60px!important;
+    transition: .5s!important;
+    z-index: 1;
+  }
+
+  .burger {
+    display: grid;
+    align-content: center;
+    grid-gap: 5px;
+    justify-content: end;
+    z-index: 2;
+  }
+
+  .burger img {
+    height: 5px;
+  }
+}

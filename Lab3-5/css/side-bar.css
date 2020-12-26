@@ -1,0 +1,109 @@
+.main .books_manage {
+  height: 100%;
+  min-height: 100vh;
+  border-right: 2px solid #ccc;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: 1;
+  grid-template-rows: 120px 100px 100px 100px;
+  background-color: #e2e2e2;
+}
+
+.main .books_manage .title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.main .books_manage .books_sort {
+  display: grid;
+  grid-template-columns: auto;
+  justify-items: center;
+  grid-gap: 10px;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 30px;
+}
+
+.main .books_manage .count_pages {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 10px;
+}
+
+.main .books_manage .count_pages button {
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 8px 10px;
+  background-color: slategray;
+  color: #fff;
+  border-radius: 15px;
+}
+
+.main .books_manage .total_pages {
+  display: none;
+}
+
+.main .books_manage .total_pages.active{
+  display: inline;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: slategray;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px slategray;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}

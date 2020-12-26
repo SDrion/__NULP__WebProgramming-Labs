@@ -1,0 +1,9 @@
+.items_container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 13px 70px;
+  justify-items: center;
+  align-items: center;
+  gap: 30px;
+  background-color: snow;
+}

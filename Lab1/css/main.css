@@ -1,0 +1,325 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #FFFFFF;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #202336;
+}
+.header {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 53px 190px;
+}
+.header img {
+  width: 40px;
+  height: 40px;
+}
+.header .navbar {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  justify-content: end;
+  grid-gap: 35px;
+  align-items: center;
+  text-decoration: none;
+  outline: none;
+}
+.header .navbar a:first-child {
+  color: #202336;
+}
+.header .navbar a {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #B8BECD;
+  text-decoration: none;
+  outline: none;
+}
+.header .navbar button {
+  padding: 8px 46px;
+  border: 1px solid #FB8F1D;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background: #FFFFFF;
+  color: #FB8F1D;
+}
+.header .navbar button:last-child {
+  color: #FFFFFF;
+  background: #FB8F1D;
+}
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0 80px;
+}
+.main .mainBodyInfo {
+  display: grid;
+  padding: 0px 110px;
+  align-content: start;
+  grid-gap: 71px;
+}
+.main .mainBodyInfo span:first-child {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 80px;
+  color: #202336;
+  border-bottom:none;
+}
+.main .mainBodyInfo .border span {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  color: #202336;
+}
+.main .mainBodyInfo .border hr {
+  margin-top: 20px;
+  width: 32px;
+  height: 2px;
+  background: #202336;
+  border-radius: 4px;
+}
+.main .mainBodyInfo .selects {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 30px;
+} 
+.main .mainBodyInfo .selects .select {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  padding: 20px 30px;
+  border: 0.8px solid #AFB0B9;
+  box-sizing: border-box;
+  border-radius: 6px;
+  align-items: center;
+  justify-content: space-between;
+}
+.main .mainBodyInfo .selects .select span{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 7px;
+  color: #4A4C53;
+} 
+.main .mainBodyInfo button {
+  width: 180px;
+  padding: 8px 60px;
+  background: #FB8F1D;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  color: #FFFFFF;
+}
+.second {
+  background: #F8F8F8;
+   
+}
+.secondd {
+  padding: 110px 150px;
+  display: grid;
+  grid-template-columns: 1fr 450px 1fr;
+  grid-gap: 102px;
+}
+
+.second .secondd .secondMain{
+  display: grid;
+  align-content: center;
+  grid-gap: 20px;
+}
+
+.second .secondd .secondMain span:first-child{
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 50px;
+  color: #000000;
+  mix-blend-mode: normal;
+  justify-self: start;
+}
+
+.second .secondd .secondMain span:last-child {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 30px;
+  color: #7D7987;
+  mix-blend-mode: normal;
+  justify-self: start;
+}
+
+
+.second .secondd .secondMain button{
+  background: #FB8F1D;
+  border-radius: 8px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 50px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  border: none;
+  justify-self: start;
+  padding: 0 37px;
+  margin-top: 13px;
+}
+
+.third{
+  padding: 163px 240px;
+}
+
+.third .head {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.third .head span:first-child{
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 50px;
+  color: #000000;
+  mix-blend-mode: normal;
+}
+
+.third .head span:last-child{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 60px;
+  display: flex;
+  align-items: center;
+  color: #FB8F1D;
+  mix-blend-mode: normal;
+  align-self: end;
+  justify-self: end;
+  cursor: pointer;
+}
+
+.third .pictures{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 25px;
+  margin-top: 56px;
+}
+
+.first_picture , .second_picture, .third_picture, .four_picture{
+  background: url('../image/one.png');
+  height: 350px;
+  width: 261px;
+  justify-self: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  display: grid;
+}
+
+.first_picture .text, .second_picture .text, .third_picture .text, .four_picture .text{
+  padding: 11px 22px 5px 5px;
+  border-radius: 0 10px 0 0;
+  justify-self: start;
+  align-self: end;
+  background: white;
+  display: grid;
+}
+
+.first_picture .text span:first-child, .second_picture .text span:first-child, .third_picture .text span:first-child, .four_picture .text span:first-child{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  color: #042521;
+  mix-blend-mode: normal;
+}
+
+.first_picture .text span:last-child, .second_picture .text span:last-child, .third_picture .text span:last-child, .four_picture .text span:last-child{
+  font-weight: 400;
+  font-size: 15px;
+  color: #848484;
+}
+
+.second_picture{
+  background: url('../image/Fanjingshan.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.third_picture{
+  background: url('../image/Vevey.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.four_picture{
+  background: url('../image/Skadar.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+footer{
+  padding: 31px 191px;
+  display: grid;
+  grid-gap: 32px;
+}
+
+footer .top{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+footer .top span{
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 28px;
+  color: #848484;
+  mix-blend-mode: normal;
+  justify-self: end;
+  align-self: center;
+}
+
+footer hr{
+  background: #C4C4C4;
+  border: 0.5px solid #c4c4c4;
+}
+
+footer .links {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  justify-content: center;
+  align-content: center;
+  grid-gap: 35px;
+}
+
+footer .links img{
+  align-self: center;
+  cursor: pointer;
+}
