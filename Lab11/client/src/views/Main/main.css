@@ -1,0 +1,111 @@
+.main {
+  display: grid;
+  grid-template-rows: auto auto;
+  padding: 40px 40px;
+  gap: 64px;
+  background-color: snow;
+  flex: 1;
+}
+
+.main .main_card {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 25px;
+  width: 60%;
+  justify-self: center;
+}
+
+.main .main_card .book_card_text {
+  display: grid;
+  grid-template-rows: auto auto;
+}
+
+.main .main_card .book_card_text span:first-child {
+  font-weight: 800;
+  font-size: 28px;
+  align-self: center;
+  justify-self: center;
+}
+
+.main .main_card .book_card_text span:last-child {
+  font-weight: 300;
+  font-size: 14px;
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+}
+
+.main .main_card img {
+  width: 230px;
+  height: 150px;
+  border: solid 2px #ccc;
+  border-radius: 15px;
+  padding: 25px 15px;
+}
+
+.main .bottom_cards {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  gap: 100px 240px;
+}
+
+.main .bottom_cards .bottom_card {
+  display: grid;
+  grid-template-rows: auto auto;
+  gap: 15px;
+  justify-self: center;
+  width: 130px;
+}
+
+.main .bottom_cards .bottom_card img {
+  height: 80px;
+  width: 123px;
+  justify-self: center;
+  border: solid 2px #ccc;
+  border-radius: 15px;
+  padding: 25px 15px;
+}
+
+.main .bottom_cards .bottom_card .book_card_text {
+  display: grid;
+  grid-template-rows: auto auto;
+  gap: 15px;
+}
+
+.main .bottom_cards .bottom_card .book_card_text span:first-child {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.main .bottom_cards .bottom_card .book_card_text span:last-child {
+  font-weight: 300;
+  font-size: 11px;
+}
+
+.main .bottom_cards .bottom_card .book_card_text span {
+  text-align: center;
+}
+
+.main a {
+  display: grid;
+  color: inherit;
+  text-decoration: none;
+}
+
+.main .view_more_btn {
+  border: none;
+  background-color: rgba(13, 59, 102, 0.9);
+  color: snow;
+  font-weight: 600;
+  font-size: 13px;
+  border-radius: 15px;
+  justify-self: center;
+  padding: 15px 23px;
+  outline: none;
+  cursor: pointer;
+}
+
+.main .view_more_btn:hover {
+  background-color: rgba(13, 59, 102, 0.7);
+}

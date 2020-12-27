@@ -1,0 +1,92 @@
+.router_wrapper .checkout_container {
+  display: grid;
+  justify-content: center;
+  padding: 40px 70px;
+  align-self: center;
+  gap: 50px;
+}
+
+.router_wrapper span:first-child {
+  font-size: 48px;
+  font-weight: 600;
+  justify-self: center;
+}
+
+.router_wrapper .checkout_container .inputs_form {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  gap: 80px;
+  justify-items: center;
+}
+
+.router_wrapper .checkout_container .inputs_form .input_wrapper {
+  display: grid;
+  gap: 15px;
+  justify-items: center;
+  align-items: center;
+}
+
+.router_wrapper .checkout_container .inputs_form .input_wrapper input {
+  outline: none;
+  border: 1px solid rgb(119, 119, 119);
+  padding: 20px 24px;
+  border-radius: 30px;
+  background-color: #143b6624;
+  font-size: 20px;
+}
+
+.router_wrapper .checkout_container .errors_container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  font-size: 18px;
+  gap: 15px;
+  font-weight: 500;
+  color: #ff4040;
+  text-shadow: 1px 1px 10px #fcb1b1;
+}
+
+.router_wrapper .checkout_container .button_blocks {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-items: end;
+}
+
+.router_wrapper .checkout_container .button_blocks .checkout_submit {
+  justify-self: end;
+  background-color: #146632;
+  padding: 9px 11px;
+  border-radius: 15px;
+  font-weight: 600;
+  font-size: 18px;
+  color: snow;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.router_wrapper .checkout_container .button_blocks .checkout_submit:hover {
+  background-color: #14663298;
+}
+
+.router_wrapper .checkout_container .button_blocks .go_back {
+  justify-self: start;
+  background-color: #143b66;
+  padding: 9px 11px;
+  border-radius: 15px;
+  font-weight: 600;
+  font-size: 18px;
+  color: snow;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.router_wrapper .checkout_container .button_blocks .go_back:hover {
+  background-color: #143c6683;
+}
+
+.router_wrapper .checkout_container .button_blocks .checkout_submit:disabled {
+  background-color: #ccc;
+}

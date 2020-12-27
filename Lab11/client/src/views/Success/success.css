@@ -1,0 +1,33 @@
+.success_container {
+  display: grid;
+  grid-template-columns: auto;
+  justify-items: center;
+  align-items: center;
+  gap: 100px;
+  padding: 50px 30px;
+}
+
+.success_container img {
+  width: 300px;
+  height: 300px;
+}
+
+.success_container span {
+  font-size: 50px;
+}
+
+.success_container .catalog_btn {
+  font-size: 32px;
+  font-weight: 600;
+  border: 6px solid #143b66;
+  background-color: #f6b103;
+  color: snow;
+  border-radius: 30px;
+  padding: 23px 100px;
+  cursor: pointer;
+  outline: none;
+}
+
+.success_container .catalog_btn:hover {
+  background-color: #f6b1039f;
+}
