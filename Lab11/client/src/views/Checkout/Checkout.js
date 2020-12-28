@@ -70,37 +70,37 @@ export const Checkout = () => {
 
             <div className='input_wrapper'>
               <label name='firstName'>First Name</label>
-              <Field className='firstName_input' placeHolder='First Name' name='firstName' type='input' />
+              <Field className='firstName_input' placeholder='First Name' name='firstName' type='input' />
             </div>
 
             <div className='input_wrapper'>
               <label name='lastName'>Last Name</label>
-              <Field className='lastName_input' name='lastName' type='input' placeHolder='Last Name' />
+              <Field className='lastName_input' name='lastName' type='input' placeholder='Last Name' />
             </div>
 
             <div className='input_wrapper'>
               <label name='email'>Email</label>
-              <Field className='email_input' name='email' type='input' placeHolder='Email' />
+              <Field className='email_input' name='email' type='input' placeholder='Email' />
             </div>
 
             <div className='input_wrapper'>
               <label name='phoneNumber'>Phone number</label>
-              <Field className='phoneNumber_input' name='phoneNumber' type='input' placeHolder='Phone Number' />
+              <Field className='phoneNumber_input' name='phoneNumber' type='input' placeholder='Phone Number' />
             </div>
 
             <div className='input_wrapper'>
               <label name='zip'>Zip code</label>
-              <Field className='zip_input' name='zip' type='input' placeHolder='Zip-code' />
+              <Field className='zip_input' name='zip' type='input' placeholder='Zip-code' />
             </div>
 
             <div className='input_wrapper'>
               <label name='address'>Address Line</label>
-              <Field className='address_input' name='address' type='input' placeHolder='Address line' />
+              <Field className='address_input' name='address' type='input' placeholder='Address line' />
             </div>
 
             <div className='input_wrapper'>
               <label name='city'>City Name</label>
-              <Field className='city_input' name='city' type='input' placeHolder='City name' />
+              <Field className='city_input' name='city' type='input' placeholder='City name' />
             </div>
           </Form>
 
@@ -115,7 +115,7 @@ export const Checkout = () => {
                 <ErrorMessage name='city' component='div' className='error' />
                 <ErrorMessage name='address' component='div' className='error' />
               </div>
-              : null
+              : false
           }
 
           <div className="button_blocks">
