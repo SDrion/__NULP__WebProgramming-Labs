@@ -57,7 +57,7 @@ export const Checkout = () => {
         lastName: '',
         email: '',
         phoneNumber: '',
-        zip: null,
+        zip: '',
         address: '',
         city: '',
       }}
