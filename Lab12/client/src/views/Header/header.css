@@ -1,0 +1,21 @@
+img {
+  align-self: center;
+  width: 70px;
+  height: 70px;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  justify-items: center;
+  background-color: rgba(13, 59, 102, 1);
+}
+
+.header .navbar {
+  align-self: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: -100px;
+  gap: 15px;
+
+}

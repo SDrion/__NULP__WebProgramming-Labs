@@ -1,0 +1,75 @@
+.filter_bar {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 8px 15px;
+  align-items: center;
+  background-color:  rgba(13, 59, 102, 0.6);
+}
+
+.filter_bar form {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  justify-content: start;
+  gap: 10px;
+  align-items: center;
+}
+
+.filter_bar form .price {
+    width: 70px;
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 23px;
+    text-align: center;
+    outline: none;
+    cursor: text;
+}
+
+.filter_bar form span {
+  font-weight: 600;
+}
+
+.filter_bar form .submit_button {
+  border: none;
+  border-radius: 15px;
+  padding: 8px 12px;
+  font-weight: 600;
+  background-color: #FFCE41;
+  color: rgb(60, 60, 60);
+  outline: none;
+  cursor: pointer;
+}
+
+.filter_bar form .submit_button:hover {
+  background-color: #E3B83C;
+}
+
+.filter_bar form .remove_button {
+  border: none;
+  border-radius: 15px;
+  padding: 8px 12px;
+  font-weight: 600;
+  background-color: rgb(218, 84, 60);
+  color: rgb(60, 60, 60);
+  outline: none;
+  cursor: pointer;
+}
+
+.filter_bar form .remove_button:hover {
+  background-color: rgba(218, 84, 60, 0.9);
+}
+
+.filter_bar .search {
+  justify-self: end;
+  display: grid;
+  align-items: center;
+}
+
+.filter_bar .search input {
+  width: 150px;
+  border-radius: 10px;
+  border: 1px solid black;
+  height: 23px;
+  text-align: center;
+  outline: none;
+  cursor: text;
+}
